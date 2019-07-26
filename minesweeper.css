@@ -1,0 +1,40 @@
+body {
+    background: lightgrey;
+    font-family: Helvetica;
+}
+
+#con {
+    padding: 20px;
+}
+
+#start {
+  font-size: 15px;
+}
+
+#field button[c="true"] {
+    color: white;
+}
+  
+.data {
+    width:30px;
+}
+  
+#field button[flag="true"] {
+  background: red;
+  color: red;
+}
+
+.kill {
+    background: white;
+}
+  
+#field button {
+    background: #0084ff;
+    border: none;
+    border-radius: 5px;
+    padding: 15px;
+    width: 30px;
+    height: 30px;
+    font-size: 10px;
+    color: #0084ff;
+}

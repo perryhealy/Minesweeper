@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Minesweeper!</title>
+        <link rel="stylesheet" type="text/css" href="minesweeper.css">
+        <meta charset="UTF-8">
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+        <script src="minesweeper.js"></script>
+    </head>
+    <body>
+        <div>
+            <label for="length"># of Rows: </label>
+            <input class="data" id="length" type="number" name="length" step="1" value="8" min="8" max="30" required>
+            <label for="width"># of Columns: </label>
+            <input class="data" id="width" type="number" name="width" step="1" value="8" min="8" max="40" required>
+            <label for="mines"># of Mines: </label>
+            <input class="data" id="mines" type="number" name="mines" step="1" value="1" required>
+        
+        <button id="start">Start</button>
+        </div>
+        
+        <div id="field">
+            
+        </div>
+
+        <div>
+            <label for="bombs">Bombs Remaining: </label>
+            <p id="bomb" name="bombs" class="data"></p>
+            <label for="timer">Time: </label>
+            <p id="timer" name="timer" class="data">000</p>
+            <label for="high">High Score: </label>
+            <p id="high" name="high" class="data">000</p>
+        </div>
+    </body>
+</html>
